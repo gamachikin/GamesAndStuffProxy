@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Games & Stuff Logo (1).png" type="image/png">
+  <title>Games & Stuff</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:wght@700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <nav>
+    <p id="time"></p>
+    <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games.html">Games</a></div>
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps.html">Apps</a></div>
+      <a href="/" class="mainNAVimage-container">
+        <img src="G&S nav.png" class="mainNAVimage">
+      </a>                                                                           
+                                                
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/search.html">Search</a></div>
+              <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a selected href="/settings.html">Settings</a></div>
+    </div>
+  </nav>
+  <div style="padding-top: 125px">
+    <div class="search-container">
+      <input class="GameSearch" type="text" id="searchInput" placeholder="Search for a game...">
+      <button onclick="shuffleGame()" class="shuffle-button" title="Randomly Selects A game">
+        <img src="https://img.icons8.com/glyph-neue/64/FFFFFF/shuffle.png" alt="Shuffle Icon" style="width: 32px; height: 32px;">
+      </button>
+  <div id="game-cards"></div>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Assume `games` variable is already defined in `games.js`
+
+            // Sort the games alphabetically by title
+            games.sort((a, b) => a.title.localeCompare(b.title));
+
+            const gameCardsContainer = document.getElementById('game-cards');
+
+            games.forEach(game => {
+                const card = document.createElement('div');
+                card.className = 'card';
+
+                const link = document.createElement('a');
+                link.href = `/game.html?game=${game.id}`;
+
+                const image = document.createElement('img');
+                image.src = game.image;
+                image.alt = game.title;
+
+                const title = document.createElement('p');
+                title.textContent = game.title;
+
+                link.appendChild(image); // Append image to link
+                link.appendChild(title); // Append title to link
+
+                card.appendChild(link); // Append link to card
+
+                gameCardsContainer.appendChild(card);
+            });
+        });
+    </script>
+<script>
+// Get the input element and game cards container
+const searchInput = document.getElementById('searchInput');
+const gameCardsContainer = document.getElementById('game-cards');
+
+// Add an input event listener to the search input
+searchInput.addEventListener('input', function() {
+    const searchTerm = searchInput.value.toLowerCase();
+
+    // Loop through each game card and hide/show based on the search term
+    document.querySelectorAll('.card').forEach(card => {
+        const gameTitle = card.innerText.toLowerCase();
+        if (gameTitle.includes(searchTerm)) {
+            card.style.display = 'inline-block';  // Show the card
+        } else {
+            card.style.display = 'none';   // Hide the card
+        }
+    });
+
+    // Reset the layout of game cards
+    gameCardsContainer.style.textAlign = 'center'; // Center align the cards
+});
+</script>
+<script>
+  function shuffleGame() {
+    // Get a random game from the games array
+    const randomIndex = Math.floor(Math.random() * games.length);
+    const randomGame = games[randomIndex];
+
+    // Redirect to the preload page with the random game id
+    window.location.href = `/game.html?game=${encodeURIComponent(randomGame.id)}`;
+  }
+</script>
+    <script src="/index.js"></script>
+    <script src="/games.js"></script>
+  </div>
+</body>
+</html>

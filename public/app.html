@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="shortcut icon" href="Games & Stuff Logo (1).png" type="image/png">
+  <title>Games & Stuff</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="preload.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:wght@700" rel="stylesheet" type="text/css">
+  <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
+  <script src="/uv/uv.config.js" charset="UTF-8"></script>
+  <script src="/preload.js" charset="UTF-8"></script>
+
+  <script type="text/javascript">
+    atOptions = {
+      'key': '8d57283b953b8b546d6a04d4deac19dc',
+      'format': 'iframe',
+      'height': 250,
+      'width': 300,
+      'params': {}
+    };
+  </script>
+</head>
+
+<body theme="main" class="overflow: hidden;">
+<nav>
+    <p id="time"></p>
+    <div class="navitems" style="background-color: rgba(0, 0, 0, 0.17); border-radius: 15px">
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/games.html">Games</a></div>
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a href="/apps.html">Apps</a></div>
+      <a href="/" class="mainNAVimage-container">
+        <img src="G&S nav.png" class="mainNAVimage">
+      </a>
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 15px 0 0 15px;"><a href="/search.html">Search</a></div>
+      <div class="navitem" style="background-color: rgba(0, 0, 0, 0.2); border-radius: 0 15px 15px 0;"><a selected href="/settings.html">Settings</a></div>
+    </div>
+  </nav>
+  <div style="padding-top: 115px">  
+<div class="gamecontainer">
+    <iframe allowfullscreen frameborder="0" id="frame"></iframe>
+    <div id="gameInfo" class="gameInfo">
+        <div class="gameHeader">
+            <img id="gameImage" alt="icon" />
+        </div>
+        <h3 id="gameTitle" class="gameTitle"></h3>
+        <p id="gameDescription" class="gameDescription"></p>
+
+        <div class="GameButtons">
+            <button onclick="toggleFullScreen()">Fullscreen</button>
+            <button onclick="reloadPage()">Reload</button>
+            <button onclick="goHome()">Home</button>
+        </div>
+    </div>
+</div>
+  <script>
+      function toggleFullScreen() {
+        const iframe = document.getElementById('frame');
+        if (!document.fullscreenElement) {
+            iframe.requestFullscreen();
+        } else {
+            document.exitFullscreen();
+        }
+    }
+
+    // Function to reload the page
+    function reloadPage() {
+        location.reload();
+    }
+
+    // Function to navigate back to the home page
+    function goHome() {
+        window.location.href = '/';
+    }
+</script>
+</body>
+<script src="index.js"></script>
+<script src="games.js"></script>
+<script src="apps.js"></script>
+<script src="load.js"></script>
+
+</html>
