@@ -593,13 +593,6 @@ var games = [
   url: 'https://antarttycoon.github.io/game/index.html',
   image: '/assets/icons/AntArtTycoon.png',
   description: 'Ant Art Tycoon is an idle game created by Wix Games. You are the manager of a colony of artist ants and your job is to decide how much each painting should sell for. Earn money by adjusting the price tag for each of your ant art pieces to maximize your earnings from potential buyers.'
-},
-{
-  id: 'roblox',
-  title: 'Roblox Test',
-  url: 'https://nowgg.me/play/roblox-corporation/5349/roblox',
-  image: '/assets/icons/test.png',
-  description: "just a test"
 }
 ]
 games.sort(function (a, b) {
