@@ -44,7 +44,7 @@ var apps = [
   {
     id: 'crunchyroll',
     title: 'Crunchyroll',
-    url: 'https://chrunchyroll.com',
+    url: 'https://crunchyroll.com',
     image: 'https://m.media-amazon.com/images/I/417bVUqe0pL.png',
     description: 'Crunchyroll is a subscription-based streaming platform specializing in anime, manga, and dorama.'
   }
