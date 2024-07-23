@@ -588,6 +588,104 @@ var games = [
   description: 'The Horror Game Granny is a popular horror game where you must escape a creepy old woman\'s house. The game is known for its intense atmosphere, jump scares, and challenging puzzles.'
 },
 {
+  id: "minecraftle",
+  title: "Minecraftle",
+  url: "https://minecraftle.org/minecraftle-embed/",
+  image: "https://art.pixilart.com/8e433973afc4.png",
+  description: "Your goal is to try to craft the secret item from the ingredients in your inventory. This game is very similar to Wordle."
+},
+{
+  id: "eurocup",
+  title: "Euro Cup",
+  url: "https://edufall.github.io/o4/soccer-skills-euro-cup/",
+  image: "https://edufall.github.io/img/soccer-skills-euro-cup.png",
+  description: "The UEFA European Championship, commonly referred to as the UEFA Euro Cup, is a football competition held every four years. This game simulates the Euro Cup."
+},
+{
+  id: "fruitninja",
+  title: "Fruit Ninja",
+  url: "https://sz-games.github.io/Games9/fruitninja/",
+  image: "https://dl.memuplay.com/new_market/img/com.halfbrick.fruitninjafree.icon.2023-11-24-11-59-26.png",
+  description: "Fruit Ninja is a popular mobile game where players aim to slice various fruits using their fingers swiping across the screen."
+},
+{
+  id: "gdlite",
+  title: "GD Lite",
+  url: "https://geometrylite.io/game/geometry-dash-lite/",
+  image: "https://w7.pngwing.com/pngs/170/465/png-transparent-geometry-dash-an-impossible-game-dodge-the-spikes-flip-gravity-amazon-com-geometrical-miscellaneous-game-text-thumbnail.png",
+  description: "Geometry Dash Lite is a free rhythm-based action platformer game where players jump and fly through various levels filled with danger. It offers a challenging gaming experience."
+},
+{
+  id: "badicecream",
+  title: "Bad Ice Cream",
+  url: "https://kdata1.com/2022/11/bad-ice-cream/",
+  image: "https://badicecream.io/upload/imgs/bad-ice-cream1.jpg",
+  description: "Bad Ice-Cream is a fun and addictive multiplayer game where you control a cute ice cream character and try to collect fruits while avoiding enemies."
+},
+{
+  id: "badicecream2",
+  title: "Bad Ice Cream 2",
+  url: "https://badicecreamgame.com/iframe/html5?id=2",
+  image: "https://cdn.nitrome.com/images/uploads/786-1356111863-badicecream2_blog.png",
+  description: "Bad Ice Cream 2 is a fun multiplayer ice-cream themed arcade game where players control ice creams to collect fruit and avoid enemies in a maze-like setting."
+},
+{
+  id: "badicecream3",
+  title: "Bad Ice Cream 3",
+  url: "https://badicecreamgame.com/iframe/html5?id=3",
+  image: "https://cdn.nitrome.com/images/uploads/1006-1388685375-bic3-update.png",
+  description: "Bad Ice Cream 3 is a fun arcade game where you control an ice cream character to collect fruits while avoiding enemies in each level."
+},
+{
+  id: "cuttherope",
+  title: "Cut The Rope",
+  url: "https://boxing2.github.io/b88/cut-the-rope/",
+  image: "https://upload.wikimedia.org/wikipedia/en/6/66/Cut_the_Rope_%28App_icon%29.png",
+  description: "Cut the Rope is a popular puzzle video game where players solve logic puzzles, clear levels, and slice through ropes to feed candy to the main character, Om Nom."
+},
+{
+  id: "badmondaysimulator",
+  title: "Bad Monday Simulator",
+  url: "https://www.gamenora.com/upload/games/html5/Bad%20Monday%20Simulator/",
+  image: "https://pbs.twimg.com/tweet_video_thumb/FN2O6yHVUAIcadG.jpg",
+  description: "Bad Monday Simulator is a challenging game where Garfield and Undertale come together to create the world of Undergarf. Play as Nermal Cat from the Garfield franchise and engage in an Undertale-style battle against Sansfield, the crazy fusion of Sans and Garfield."
+},
+{
+  id: "wildsio",
+  title: "Wilds.io",
+  url: "https://wilds.io/",
+  image: "https://kevin.games/assets/images/games/wilds-io.jpg",
+  description: "Wilds.io is a multiplayer online game that combines elements of survival, exploration, and crafting. Players enter a vast, open world where they can gather resources, build structures, and engage in battles with other players."
+},
+{
+  id: "bfnspue",
+  title: "BFNSPUE",
+  url: "https://kdata1.com/2023/05/baldis-fun-new-school-plus-ultimate-edition/",
+  image: "https://img.itch.zone/aW1nLzk2ODEwOTUucG5n/original/13JKzQ.png",
+  description: "Baldi's Fun New School Plus: Ultimate Edition is a horror-themed indie game that builds on the original, Baldi's Basics in Education and Learning. In this game, players navigate a school environment while avoiding Baldi, who becomes increasingly aggressive as the player collects items and completes tasks."
+},
+{
+  id: "skribblio",
+  title: "Skribbl.io",
+  url: "https://skribbl.io/",
+  image: "https://imgmedia.lbb.in/media/2020/05/5eb9149cdda0dc33a2fde6bc_1589187740390.jpg",
+  description: "Skribbl.io is a multiplayer drawing and guessing game where players of all ages and skill levels can engage in creative and entertaining gameplay. It offers a fun experience for those who enjoy drawing and guessing words based on others' drawings."
+},
+{
+  id: "scrabble",
+  title: "Scrabble",
+  url: "https://playscrabble.com/",
+  image: "https://secure.gravatar.com/avatar/6339b38faa44b4989d93ea6e5e819dca?s=512&d=mm&r=g",
+  description: "Scrabble is a word game where players score points by placing tiles, each with a single letter, onto a game board to create interconnected words. The game requires vocabulary and strategic thinking to maximize points."
+},
+{
+  id: "duckduckclicker",
+  title: "Duck Duck Clicker",
+  url: "https://html-classic.itch.zone/html/9737734/index.html",
+  image: "https://bitlifegame.io/data/image/game/duck-duck-clicker.png",
+  description: "Duck Duck Clicker combines your love for ducks with the thrill of clicking games. Click on adorable ducks to generate a growing flock of ducklings while customizing them for a personal touch. With a simple gameplay mechanic and a mission to fill the universe with cuteness, this game offers endless fun and excitement. Patience and consistency will help you expand your adorable duckling universe!"
+},
+{
   id: 'antarttycoon',
   title: 'Ant Art Tycoon',
   url: 'https://antarttycoon.github.io/game/index.html',

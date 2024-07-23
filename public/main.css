@@ -200,13 +200,12 @@ input[type=text] {
     transform: scale(1.05);
 }
 .frame {
-    border-radius: 5px;
-    background-color: white;
-    display: block;
-    margin: auto;
-    border: none;
-    height: calc(100vh - 150px);
-    width: calc(100vw - 30px);
+  border-radius: 15px;
+  background-color: white;
+  display: block;
+  border: none;
+  height: calc(100vh - 150px);
+  width: calc(100vw - 16px);
 }
 .theme-select {
   background-color: var(--accent);
