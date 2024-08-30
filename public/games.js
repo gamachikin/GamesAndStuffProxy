@@ -686,6 +686,20 @@ var games = [
   description: "Duck Duck Clicker combines your love for ducks with the thrill of clicking games. Click on adorable ducks to generate a growing flock of ducklings while customizing them for a personal touch. With a simple gameplay mechanic and a mission to fill the universe with cuteness, this game offers endless fun and excitement. Patience and consistency will help you expand your adorable duckling universe!"
 },
 {
+  id: "abandoned",
+  title: "Abandoned",
+  url: "https://www.spiele-umsonst.de/azad/downloads/html5games/escape/abandoned/",
+  image: "https://jayisgames.com/images/dora_abandoned_2.jpg",
+  description: "Abandoned is an online game where players uncover the secrets of an abandoned civilization while searching for a missing brother, requiring problem-solving skills."
+},
+{
+  id: "abandoned2",
+  title: "Abandoned 2",
+  url: "https://www.spiele-umsonst.de/azad/downloads/html5games/escape/abandoned2/",
+  image: "https://www.coolmathgames.com/sites/default/files/abandoned-2-game-icon.png",
+  description: "Abandoned 2 is an online game where players uncover the secrets of an abandoned civilization while searching for a missing brother, requiring problem-solving skills."
+},
+{
   id: 'antarttycoon',
   title: 'Ant Art Tycoon',
   url: 'https://antarttycoon.github.io/game/index.html',
