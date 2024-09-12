@@ -14,13 +14,6 @@ var apps = [
     description: 'YouTube is a video-sharing platform where users can watch, upload, and share videos. It is the second most visited website in the world, with over 2.5 billion monthly active users.'
   },
   {
-    id: 'chat',
-    title: 'Chat Room',
-    url: 'https://e.widgetbot.io/channels/1191829882334875770/1191829882859180135',
-    image: 'https://games-and-stuff.vercel.app/assets/icons/ChatRoom.png',
-    description: 'This is the offical Games And Stuff chat room. You can ask questions, see new site updates coming out, and chat with whoever you would like.'
-  },
-  {
     id: 'tiktok',
     title: 'TikTok',
     url: 'https://tiktok.com',
@@ -42,10 +35,10 @@ var apps = [
     description: 'Google is an American multinational technology company that specializes in Internet-related services and products, which include online advertising technologies, a search engine, cloud computing, software, and hardware.'
   },
   {
-    id: 'crunchyroll',
-    title: 'Crunchyroll',
-    url: 'https://crunchyroll.com',
-    image: 'https://m.media-amazon.com/images/I/417bVUqe0pL.png',
-    description: 'Crunchyroll is a subscription-based streaming platform specializing in anime, manga, and dorama.'
+    id: 'netflix',
+    title: 'Netflix',
+    url: 'https://netflix.com',
+    image: 'https://deadline.com/wp-content/uploads/2022/08/Netflix_Symbol_logo.jpg?w=500&h=500&crop=1',
+    description: 'Netflix is a popular American entertainment company that provides streaming services for television shows, movies, and documentaries.'
   }
 ]
